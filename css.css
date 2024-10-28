@@ -1,0 +1,274 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0e0;
+    line-height: 1.6;
+    background-color: #121212;
+}
+
+
+
+
+/*  The Headers */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+header .yousef-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #444;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+header .yousef-pic:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8eb4a2;; 
+}
+
+header .objective {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+
+/* -------------------------------------- */
+
+
+
+
+/* The Section */
+
+
+/* background */
+section {
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* TransForm */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* the header like Education */
+section h2 {
+    font-size: 1.8em;
+    color: #8eb4a2;;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8eb4a2;;
+    padding-bottom: 5px;
+}
+
+/* The List in Education and Experiences and Skills */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+/* -------------------------------------- */
+
+
+
+/* The  Projects  */
+
+/* The line left project*/
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #a9b48e;;
+    background-color: #232323;
+    border-radius: 5px;
+}
+
+
+/* the header of project like java 1 and java 2 */
+.project h3 {
+    font-size: 1.4em;
+    color: #8eb4a2;;
+}
+
+/* The Description of project*/
+
+.project p {
+    font-size: 1em;
+    color: #b0b0b0;
+}
+
+/* The link */
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8eb4a2;;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #0f5635;;
+}
+
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header .yousef-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 15px 0;
+    }
+}
+
+
+
+/* Contact Me  */
+
+/* The Background */
+#input {
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* The header of Contact Me  */
+#input h2 {
+    color: #8eb4a2;
+    margin-bottom: 15px;
+}
+
+/* Space Between Box */
+
+#input div {
+    margin-bottom: 15px;
+}
+
+/* The label like First name etc.... */
+
+#input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cfcfcf;
+}
+
+/* The Box  */
+#input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #232323;
+    color: #e0e0e0;
+}
+
+
+#input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #232323;
+    color: #e0e0e0;
+    resize: vertical; /* Allows resizing */
+}
+
+
+/* Submit button */
+#input button {
+    padding: 10px 15px;
+    background-color: #8eb4a2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#input button:hover {
+    background-color: #0f5635;
+}
+
+
+
+#input button[type="reset"] {
+    background-color: #cfcfcf;
+    color: #000;
+    margin-left: 10px; 
+}
+
+#input button[type="reset"]:hover {
+    background-color: #a6a6a6; 
+}
+
+/*-----------------------------------*/
+
+/* Contact Information */
+#contact p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#contact a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8eb4a2;;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+#contact a:hover {
+    color: #0f5635;;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #b0b0b0;
+    font-size: 0.9em;
+}
